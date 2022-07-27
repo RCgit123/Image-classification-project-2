@@ -1,1 +1,15 @@
-# Image-classification-project-2
+# Image-classification using CIFAR10 DATASET
+Please refer to the above project pdf for complete details about the project 
+# Introduction
+We live in the era of data. With the Internet of Things (IoT) and Artificial Intelligence (AI) becoming ubiquitous technologies, we now have huge volumes of data being generated. Differing in form, data could be speech, text, image, or a mix of any of these. In the form of photos or videos, images make up for a significant share of global data creation.
+
+Since the vast amount of image data we obtain from cameras and sensors is unstructured, we depend on advanced techniques such as machine learning algorithms to analyze the images efficiently. Image classification is probably the most important part of digital image analysis. It uses AI-based deep learning models to analyze images with results that for specific tasks already surpass human-level accuracy (for example, in (face recognition). 
+
+Image Classification is the Basis of Computer Vision
+The field of computer vision includes a set of main problems such as image classification, localization, image segmentation, and object detection. Among those, image classification can be considered as the fundamental problem. It forms the basis for other computer vision problems.
+Image classification applications are used in many areas, such as medical imaging, object identification in satellite images, traffic control systems, brake light detection, machine vision, and more.
+Image classification is the task of categorizing and assigning labels to groups of pixels or vectors within an image dependent on particular rules. The categorization law can be applied through one or multiple spectral or textural characterizations. Among deep neural networks (DNN), the convolutional neural network (CNN) has demonstrated excellent results in computer vision tasks, especially in image classification. Convolutional Neural Network (CNN, or ConvNet) is a special type of multi-layer neural network inspired by the mechanism of the optical and neural systems of humans. A CNN is a framework developed using machine learning concepts. CNNs are able to learn and train from data on their own without the need for human intervention.
+In fact, there is only some pre-processing needed when using CNNs. They develop and adapt their own image filters, which have to be carefully coded for most algorithms and models. CNN frameworks have a set of layers that perform particular functions to enable the CNN to perform these functions.
+# Objective 
+The objective of this project is the classification of images from the CIFAR-10 dataset using CNN. Here the most critical component in the model is the convolutional layer. This part aims at reducing the size of the image for faster computations of the weights and improve its generalization.
+During the convolutional part, the network keeps the essential features of the image and excludes irrelevant noise. For instance, the model is learning how to recognize an elephant from a picture with a mountain in the background. If you use a traditional neural network, the model will assign a weight to all the pixels, including those from the mountain which is not essential and can mislead the network.
